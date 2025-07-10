@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sideclick - Universal Mouse Macros</title>
+    <title>Micelord - Advanced Mouse Productivity Software</title>
     <style>
         * {
             margin: 0;
@@ -48,46 +48,15 @@
             line-height: 1.6;
         }
 
-        .email-signup {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            max-width: 400px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .email-input {
-            flex: 1;
-            padding: 15px;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            backdrop-filter: blur(10px);
-        }
-
-        .email-input::placeholder {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .signup-btn {
-            padding: 15px 30px;
+        .beta-badge {
+            display: inline-block;
             background: rgba(255, 255, 255, 0.2);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
             font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
+            margin-bottom: 30px;
             backdrop-filter: blur(10px);
-        }
-
-        .signup-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
         }
 
         .features {
@@ -117,22 +86,29 @@
             line-height: 1.5;
         }
 
-        .beta-badge {
-            display: inline-block;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 8px 16px;
-            border-radius: 20px;
+        .contact-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-text {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .email {
             font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 30px;
+            opacity: 0.7;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px 20px;
+            border-radius: 8px;
             backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            display: inline-block;
         }
 
         @media (max-width: 768px) {
-            .email-signup {
-                flex-direction: column;
-            }
-            
             .logo {
                 font-size: 36px;
             }
@@ -147,7 +123,7 @@
     <div class="container">
         <div class="beta-badge">Beta Coming Soon</div>
         
-        <h1 class="logo">Sideclick</h1>
+        <h1 class="logo">Micelord</h1>
         
         <p class="tagline">Coming Soon</p>
         
@@ -155,9 +131,9 @@
             Advanced mouse productivity software for professionals.
         </p>
         
-        <div style="text-align: center; margin-bottom: 40px;">
-            <p style="font-size: 16px; opacity: 0.9; margin-bottom: 20px;">Contact for early access</p>
-            <p style="font-size: 14px; opacity: 0.7;">hello@sideclick.dev</p>
+        <div class="contact-section">
+            <p class="contact-text">Contact for early access</p>
+            <div class="email">hello@micelord.dev</div>
         </div>
         
         <div class="features">
